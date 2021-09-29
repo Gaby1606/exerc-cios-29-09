@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>  
+    </head>
+    <body>
+        <h1>JAVASCRIPT</h1>
+        <script>
+            a=prompt("Digite um número qualquer: ")
+                console.log(a)
+            b=prompt("Digite outro número qualquer: ")
+                console.log(b)
+            if(a>b){
+                console.log("O número",a,"é maior que",b)
+            }
+            if(b>a){
+                console.log("O número",b,"é maior que",a)
+            }
+            else if(b==a){
+                console.log("Os números são iguais")
+            }
+        </script>
+
+        <script>
+            a=prompt("A temperatura está em Celsius ou Fahrenheit? Responda com C ou F ")
+            b=prompt("Qual a temperatura? ")
+            if(a=='C'){
+                console.log((1.8*b)+32)
+            }
+            else if(a=='F'){
+                console.log((b-32)/1.8)
+            }
+        </script>
+
+        <script>
+          let prinumero=prompt("Digite um número")
+          let operação=prompt("Digite o símbolo da opração que deseja")
+          let segnumero=prompt("Digite um número")
+
+          prinumero=parseInt(prinumero)
+          segnumero=parseInt(segnumero)
+
+          if(operação=='+'){
+              soma=prinumero+segnumero
+              console.log(subtração)
+          }
+          else if(operação=='-'){
+              subtração=prinumero*segnumero
+              console.log(multiplicação)
+          }
+          else if(operação=='*'){
+              multiplicação=prinumero*segnumero
+              console.log(multiplicação)
+          }
+          else if(operação=='/'){
+              if(segnumero=='0'){
+                  conseole.log('Erro!')
+              }
+              else{
+                  divisão=prinumero/segnumero
+                  console.log(divisão)
+              }
+          }
+          else{
+              console.log('Erro!')
+          }
+        </script>
+    </body>
+</html>
